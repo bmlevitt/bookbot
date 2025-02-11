@@ -1,7 +1,7 @@
 def read_file(path):
     with open (path) as f:
         return f.read()
-    
+
 def lower_case(text):
     return text.lower()
 

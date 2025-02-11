@@ -30,7 +30,7 @@ def alpha_report(char_count):
 def main():
     text = read_file("books/frankenstein.txt")
     lower_text = lower_case(text)
-    words = word_count(lower_text)
+    # words = word_count(lower_text)
     chars = char_count(lower_text)
     alpha_report(chars)
 

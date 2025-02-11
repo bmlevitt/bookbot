@@ -1,3 +1,1 @@
-Hello from the Bookbot repository!
-
-Enjoy your stay.
+BookBot is my first project!

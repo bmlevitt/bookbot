@@ -32,5 +32,5 @@ def main():
     words = word_count(lower_text)
     chars = char_count(lower_text)
     # alpha_report(chars)
-    print(f"Total words: {words}")
+    print(f"Total words: {words} words found in the document")
 main()

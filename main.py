@@ -1,12 +1,11 @@
+from stats import word_count
+
 def read_file(path):
     with open (path) as f:
         return f.read()
 
 def lower_case(text):
     return text.lower()
-
-def word_count(text):
-    return len(text.split())
 
 def char_count(text):
     char_count = {}
@@ -30,8 +29,8 @@ def alpha_report(char_count):
 def main():
     text = read_file("books/frankenstein.txt")
     lower_text = lower_case(text)
-    # words = word_count(lower_text)
+    words = word_count(lower_text)
     chars = char_count(lower_text)
-    alpha_report(chars)
-
+    # alpha_report(chars)
+    print(f"Total words: {words}")
 main()
